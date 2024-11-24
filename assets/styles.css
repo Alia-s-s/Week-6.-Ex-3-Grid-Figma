@@ -1,0 +1,137 @@
+.header {
+    display: grid;
+    background-color:#0A2640;
+    height:615px;
+    width:1400px;
+    grid-template-rows:65px 550px;
+    }
+
+   .legend {
+display:grid;
+/*background-color: yellow;*/
+grid-template-columns: 5fr 4fr;
+align-items:center;
+
+    }
+
+    .logo{
+display:grid;
+/*background-color: aqua;
+border:solid blue;*/
+align-content: center;
+justify-content:start;
+    }
+
+    .navigation{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        align-items:center;
+        justify-items:center;
+        height:35px;
+        /*background-color: aqua;*/
+        margin:5px;
+
+    }
+
+    .detail{
+        /*font-family:'Open Sans';
+        font-weight:bold;
+        font-size: small;*/
+        color:#fff;
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: semi-bold;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+            }
+    
+    .white {
+        background-color: #fff;
+        color:#0A2640;
+        width:60px;
+        border-radius: 40%;
+        text-align: center;
+    }
+
+    .pic{
+        width:162.22px;
+        height:42px;
+    }
+
+    .dark{
+        display:grid;
+        /*background-color: antiquewhite;
+        border:solid red;*/
+        grid-template-rows: 100px 350px 100px;
+    }
+
+    .part{
+        /*background-color: yellow;
+        border:solid red;*/
+    }
+
+    .about{
+        display:grid;
+        align-content:space-around;
+        justify-content:center;
+        color:#fff;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+                font-style: normal;
+        
+    }
+
+    .things{
+        display:grid;
+        align-content:space-around;
+        justify-content:center;
+        color:#fff;
+        font-family: "Manrope", sans-serif;
+        font-size: 64px;
+        font-style: normal;
+        text-align: center;
+            }
+
+            .motto{
+                font-size: 16px; 
+                text-align:center;
+            }
+
+.body {
+    display: grid;
+    background-color:#fff;
+    
+    height:650px;
+    width:1400px;
+    grid-template-rows:310px 310px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+
+    .column {
+        display:grid;
+        height:300px;
+        width:300px;
+        margin:10px;
+
+        /*background-color:yellow;
+        border:solid red;*/
+    }
+
+    .puzzle{
+
+    }
+
+.merge {
+    display: grid;
+    grid-template-columns: 2/3;
+    grid-template-rows:1/3;
+    width:400px;
+    height:632px;
+}
+
+}
+.whitebody {
+}
+.footer {
+}
